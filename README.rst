@@ -6,4 +6,4 @@ This is an implementation of Backbone.js Wine Cellar tutorial REST API by using 
 Wine Cellar tutorial:
   https://github.com/ccoenraets/backbone-cellar/
 
-Tested with play 2.1-RC1 (after RC1)
+Tested with play 2.1-RC1

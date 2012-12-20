@@ -1,0 +1,11 @@
+GET     /                           controllers.Application.index
+
+GET     /api/wines                  controllers.WineApi.list
+GET     /api/wines/:id              controllers.WineApi.find(id: Long)
+GET     /api/wines/search/:name     controllers.WineApi.search(name: String)
+POST    /api/wines                  controllers.WineApi.create
+PUT     /api/wines/:id              controllers.WineApi.update(id: Long)
+DELETE  /api/wines/:id              controllers.WineApi.delete(id: Long)
+
+GET     /assets/javascripts/routes  controllers.Application.javascriptRoutes
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
